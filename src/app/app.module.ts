@@ -57,6 +57,7 @@ import {TodolistComponent} from "./components/todolist/todolist.component";
 import {InteractiveQuizComponent} from "./components/interactive-quiz/interactive-quiz.component";
 import {ContactformComponent} from "./components/contactform/contactform.component";
 import {DrawingBoardComponent} from "./components/drawing-board/drawing-board.component";
+import {FormsModule} from "@angular/forms";
 
 
 const  routes: Routes = [
@@ -123,6 +124,7 @@ const  routes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, {enableTracing: true}),
+    FormsModule,
   ],
   declarations: [
     AppComponent,
