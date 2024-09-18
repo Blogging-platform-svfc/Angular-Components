@@ -1,1 +1,3 @@
-<p>usegreeting works!</p>
+<input type="text" [(ngModel)]="userName" placeholder="Enter your name">
+<button (click)="greetUser()">Greet Me</button>
+<p *ngIf="greeting">Hello, {{ greeting }}!</p>
