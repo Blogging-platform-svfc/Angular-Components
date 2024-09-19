@@ -83,7 +83,7 @@ const  routes: Routes = [
   { path: 'palindromechecker', component: PalindromecheckerComponent},
   { path: 'temperatureconverter', component: TemperatureconverterComponent},
   { path: 'shoppinglist', component: ShoppinglistComponent},
-  { path: 'factorialcalculator', component: FahrenheittocelsiusComponent},
+  { path: 'fahrenheittocelsius', component: FahrenheittocelsiusComponent},
   { path: 'todomanager', component: TodomanagerComponent},
   { path: 'guessnumbergame', component: GuessnumbergameComponent},
   { path: 'wordcounter', component: WordcounterComponent},
