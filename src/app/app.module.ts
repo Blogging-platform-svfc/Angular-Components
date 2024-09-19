@@ -52,9 +52,6 @@ import {NamegeneratorComponent} from "./components/namegenerator/namegenerator.c
 import {AgegeneratorComponent} from "./components/agegenerator/agegenerator.component";
 import {SpellingcheckerComponent} from "./components/spellingchecker/spellingchecker.component";
 import {EnglishcheckerComponent} from "./components/englishchecker/englishchecker.component";
-import {
-  WeatherWidgetComponentComponent
-} from "./components/weather-widget-component/weather-widget-component.component";
 import {TodolistComponent} from "./components/todolist/todolist.component";
 import {InteractiveQuizComponent} from "./components/interactive-quiz/interactive-quiz.component";
 import {ContactformComponent} from "./components/contactform/contactform.component";
@@ -62,6 +59,8 @@ import {DrawingBoardComponent} from "./components/drawing-board/drawing-board.co
 import {FormsModule} from "@angular/forms";
 import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
 import {CurrencyformatterComponent} from "./components/currencyformatter/currencyformatter.component";
+import {ProductlistComponent} from "./components/productlist/productlist.component";
+import {ChatbotComponent} from "./components/chatbot/chatbot.component";
 
 
 const  routes: Routes = [
@@ -109,14 +108,13 @@ const  routes: Routes = [
   { path: 'agegenerator', component: AgegeneratorComponent},
   { path: 'spellingchecker', component: SpellingcheckerComponent},
   { path: 'englishchecker', component: EnglishcheckerComponent},
-  { path: 'weather-widger-component', component: WeatherWidgetComponentComponent},
-  { path: 'chatbot', component: CharactercounterComponent},
+  { path: 'chatbot', component: ChatbotComponent},
   { path: 'todolist', component: TodolistComponent},
   { path: 'interactive-quiz', component: InteractiveQuizComponent},
   { path: 'contactform', component: ContactformComponent},
   { path: 'drawing-board', component: DrawingBoardComponent},
   { path: 'currencyformatter', component: CurrencyformatterComponent},
-
+  { path: 'productlist', component: ProductlistComponent},
 
 
 
@@ -170,7 +168,6 @@ const  routes: Routes = [
     AgegeneratorComponent,
     SpellingcheckerComponent,
     EnglishcheckerComponent,
-    WeatherWidgetComponentComponent,
     CharactercounterComponent,
     TodolistComponent,
     InteractiveQuizComponent,
@@ -182,7 +179,7 @@ const  routes: Routes = [
     FactorialcalculatorComponent,
     WordcounterComponent,
     CurrencyformatterComponent,
-
+    ProductlistComponent,
   ],
   providers: [
 
