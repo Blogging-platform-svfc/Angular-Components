@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactformComponent } from './contactform.component';
+import { MultiplybyComponent } from './multiplyby.component';
 
-describe('ContactformComponent', () => {
-  let component: ContactformComponent;
-  let fixture: ComponentFixture<ContactformComponent>;
+describe('MultiplybyComponent', () => {
+  let component: MultiplybyComponent;
+  let fixture: ComponentFixture<MultiplybyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ContactformComponent]
+      imports: [MultiplybyComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ContactformComponent);
+    fixture = TestBed.createComponent(MultiplybyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

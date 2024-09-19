@@ -54,13 +54,13 @@ import {SpellingcheckerComponent} from "./components/spellingchecker/spellingche
 import {EnglishcheckerComponent} from "./components/englishchecker/englishchecker.component";
 import {TodolistComponent} from "./components/todolist/todolist.component";
 import {InteractiveQuizComponent} from "./components/interactive-quiz/interactive-quiz.component";
-import {ContactformComponent} from "./components/contactform/contactform.component";
 import {DrawingBoardComponent} from "./components/drawing-board/drawing-board.component";
 import {FormsModule} from "@angular/forms";
 import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
 import {CurrencyformatterComponent} from "./components/currencyformatter/currencyformatter.component";
 import {ProductlistComponent} from "./components/productlist/productlist.component";
 import {ChatbotComponent} from "./components/chatbot/chatbot.component";
+import {MultiplybyComponent} from "./components/multiplyby/multiplyby.component";
 
 
 const  routes: Routes = [
@@ -111,7 +111,7 @@ const  routes: Routes = [
   { path: 'chatbot', component: ChatbotComponent},
   { path: 'todolist', component: TodolistComponent},
   { path: 'interactive-quiz', component: InteractiveQuizComponent},
-  { path: 'contactform', component: ContactformComponent},
+  { path: 'multiplyby', component: MultiplybyComponent},
   { path: 'drawing-board', component: DrawingBoardComponent},
   { path: 'currencyformatter', component: CurrencyformatterComponent},
   { path: 'productlist', component: ProductlistComponent},
@@ -171,7 +171,7 @@ const  routes: Routes = [
     CharactercounterComponent,
     TodolistComponent,
     InteractiveQuizComponent,
-    ContactformComponent,
+    MultiplybyComponent,
     DrawingBoardComponent,
     PalindromecheckerComponent,
     TemperatureconverterComponent,
