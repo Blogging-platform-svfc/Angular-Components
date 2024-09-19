@@ -177,6 +177,7 @@ const  routes: Routes = [
     TemperatureconverterComponent,
     ShoppinglistComponent,
     FactorialcalculatorComponent,
+    WordcounterComponent,
 
 
   ],
