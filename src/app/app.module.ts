@@ -41,7 +41,9 @@ import {InterestcalculatorComponent} from "./components/interestcalculator/inter
 import {
   CompoundinterestcalculatorComponent
 } from "./components/compoundinterestcalculator/compoundinterestcalculator.component";
-import {FibonnaccigeneratorComponent} from "./components/fibonnaccigenerator/fibonnaccigenerator.component";
+import {
+  FibonnaccigeneratorComponent
+} from "./components/fibonnaccigenerator/fibonnaccigenerator.component";
 import {OddsumcalculatorComponent} from "./components/oddsumcalculator/oddsumcalculator.component";
 import {RandomquotedisplayComponent} from "./components/randomquotedisplay/randomquotedisplay.component";
 import {UppercasegreettingComponent} from "./components/uppercasegreetting/uppercasegreetting.component";
