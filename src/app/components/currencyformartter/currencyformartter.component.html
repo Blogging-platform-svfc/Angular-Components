@@ -1,1 +1,8 @@
-<p>currencyformartter works!</p>
+<input type="number" [(ngModel)]="numberInput" placeholder="Enter a number">
+<select [(ngModel)]="currencyCode">
+  <option value="USD">Dollar</option>
+  <option value="PHP">PHP</option>
+  <option value="EUR">Euro</option>
+</select>
+<button (click)="formatCurrency()">Format</button>
+<p *ngIf="formattedCurrency !== null">Formatted Currency: {{ formattedCurrency }}</p>

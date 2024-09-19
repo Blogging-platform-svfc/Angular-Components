@@ -61,6 +61,7 @@ import {ContactformComponent} from "./components/contactform/contactform.compone
 import {DrawingBoardComponent} from "./components/drawing-board/drawing-board.component";
 import {FormsModule} from "@angular/forms";
 import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
+import {CurrencyformartterComponent} from "./components/currencyformartter/currencyformartter.component";
 
 
 const  routes: Routes = [
@@ -101,7 +102,7 @@ const  routes: Routes = [
   { path: 'compoundinterestcalculator', component: CompoundinterestcalculatorComponent},
   { path: 'fibonaccigenerator', component: FibonnaccigeneratorComponent},
   { path: 'oddsumcalculator', component: OddsumcalculatorComponent},
-  { path: 'currencyformatter', component: CurrencyconverterComponent},
+  { path: 'currencyformatter', component: CurrencyformartterComponent},
   { path: 'randomquotedisplay', component: RandomquotedisplayComponent},
   { path: 'uppercasegreeting', component: UppercasegreettingComponent},
   { path: 'divisiblechecker', component: DivisiblecheckerComponent},
@@ -180,6 +181,7 @@ const  routes: Routes = [
     ShoppinglistComponent,
     FactorialcalculatorComponent,
     WordcounterComponent,
+    CurrencyformartterComponent,
 
 
   ],
