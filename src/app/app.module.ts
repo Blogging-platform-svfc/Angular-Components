@@ -173,6 +173,7 @@ const  routes: Routes = [
     DrawingBoardComponent,
     PalindromecheckerComponent,
     TemperatureconverterComponent,
+    ShoppinglistComponent
 
 
   ],
