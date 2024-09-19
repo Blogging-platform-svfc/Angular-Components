@@ -180,6 +180,7 @@ const  routes: Routes = [
     WordcounterComponent,
     CurrencyformatterComponent,
     ProductlistComponent,
+    ChatbotComponent,
   ],
   providers: [
 
