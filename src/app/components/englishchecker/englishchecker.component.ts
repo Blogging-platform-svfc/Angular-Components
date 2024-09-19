@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './englishchecker.component.css'
 })
 export class EnglishcheckerComponent {
+  sentence: string = '';
+  isEnglish: boolean | null = null;
 
+  checkEnglish() {
+    // Simple check: Count English alphabet characters
+    const englishChars = this.sentence.match(/[a-zA-Z]/g);
+    this.isEnglish = englishChars && englishChars.length > 0;
+  }
 }
