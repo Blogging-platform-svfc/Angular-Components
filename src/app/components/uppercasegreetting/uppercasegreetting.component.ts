@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './uppercasegreetting.component.css'
 })
 export class UppercasegreettingComponent {
+  userName: string = '';
+  greeting: string | null = null;
 
+  greetUser() {
+    this.greeting = this.userName.toUpperCase();
+  }
 }
