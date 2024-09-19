@@ -58,6 +58,7 @@ import {InteractiveQuizComponent} from "./components/interactive-quiz/interactiv
 import {ContactformComponent} from "./components/contactform/contactform.component";
 import {DrawingBoardComponent} from "./components/drawing-board/drawing-board.component";
 import {FormsModule} from "@angular/forms";
+import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
 
 
 const  routes: Routes = [
@@ -83,6 +84,7 @@ const  routes: Routes = [
   { path: 'palindromechecker', component: PalindromecheckerComponent},
   { path: 'temperatureconverter', component: TemperatureconverterComponent},
   { path: 'shoppinglist', component: ShoppinglistComponent},
+  { path: 'factorialcalculator', component: FactorialcalculatorComponent},
   { path: 'fahrenheittocelsius', component: FahrenheittocelsiusComponent},
   { path: 'todomanager', component: TodomanagerComponent},
   { path: 'guessnumbergame', component: GuessnumbergameComponent},
@@ -173,7 +175,8 @@ const  routes: Routes = [
     DrawingBoardComponent,
     PalindromecheckerComponent,
     TemperatureconverterComponent,
-    ShoppinglistComponent
+    ShoppinglistComponent,
+    FactorialcalculatorComponent,
 
 
   ],
