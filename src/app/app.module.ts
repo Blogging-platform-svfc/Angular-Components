@@ -171,6 +171,9 @@ const  routes: Routes = [
     InteractiveQuizComponent,
     ContactformComponent,
     DrawingBoardComponent,
+    PalindromecheckerComponent,
+    TemperatureconverterComponent,
+
 
   ],
   providers: [

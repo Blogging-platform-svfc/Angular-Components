@@ -1,16 +1,11 @@
 import { Component } from '@angular/core';
-import {FormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-palindromechecker',
-  standalone: true,
-  imports: [
-    FormsModule
-  ],
   templateUrl: './palindromechecker.component.html',
-  styleUrl: './palindromechecker.component.css'
+  styleUrls: ['./palindromechecker.component.css']
 })
-export class PalindromecheckerComponent {
+export class PalindromecheckerComponent{
   inputWord: string = '';
   isPalindrome: boolean | null = null;
 
